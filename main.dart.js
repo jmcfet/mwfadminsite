@@ -40342,7 +40342,7 @@ s=p}while(true)switch(s){case 0:k=new A.HR(B.Gr)
 j=null
 i=null
 h=t.N
-g=A.k0(null,"localhost","/api/Account/GetMonthStatus",52175,A.ao(["month",B.f.k(A.bk(a)),"year",B.f.k(A.ba(a))],h,h),"http")
+g=A.k0(null,"landingstennis.com","/api/Account/GetMonthStatus",443,A.ao(["month",B.f.k(A.bk(a)),"year",B.f.k(A.ba(a))],h,h),"https")
 p=4
 s=7
 return A.a_(A.aBW(g),$async$kv)
@@ -40379,7 +40379,7 @@ s=p}while(true)switch(s){case 0:j=null
 i=t.N
 h=A.ao(["state","true"],i,i)
 p=4
-n=A.k0(null,"localhost","/api/Account/freezedatabase",52175,h,"http")
+n=A.k0(null,"landingstennis.com","/api/Account/freezedatabase",443,h,"https")
 s=7
 return A.a_(A.arL(n,null,null),$async$z4)
 case 7:j=c
@@ -40408,7 +40408,7 @@ mS(){var s=0,r=A.R(t.y),q,p=2,o=[],n,m,l,k,j,i
 var $async$mS=A.S(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:j=null
 p=4
-n=A.k0(null,"localhost","/api/Account/zeroCaptainCounts",52175,null,"http")
+n=A.k0(null,"landingstennis.com","/api/Account/zeroCaptainCounts",443,null,"https")
 s=7
 return A.a_(A.arL(n,null,null),$async$mS)
 case 7:j=b
@@ -40442,7 +40442,7 @@ g=t.N
 f=A.ao(["userid",a],g,g)
 e=null
 p=4
-m=A.k0(null,"localhost","/api/Account/GetUserbyUserID",52175,f,"http")
+m=A.k0(null,"landingstennis.com","/api/Account/GetUserbyUserID",443,f,"https")
 s=7
 return A.a_(A.aBW(m),$async$lx)
 case 7:h=c
@@ -40477,7 +40477,7 @@ s=p}while(true)switch(s){case 0:A.lR("In changeuser for "+A.l(a.d))
 n=new A.C1()
 m=null
 m=B.cu.TL(a,null)
-l=A.k0(null,"localhost","api/Account/ChangeUser",52175,null,"http")
+l=A.k0(null,"landingstennis.com","api/Account/ChangeUser",443,null,"https")
 p=4
 k=t.N
 k=A.ao(["Content-Type","application/json"],k,k)
@@ -40503,7 +40503,7 @@ aha(a){var s=0,r=A.R(t.y),q,p=2,o=[],n,m,l,k,j,i,h
 var $async$m6=A.S(function(b,c){if(b===1){o.push(c)
 s=p}while(true)switch(s){case 0:i=null
 p=4
-n=A.k0(null,"localhost","/api/Account/addMember",52175,A.ao(["username",a],t.N,t.z),"http")
+n=A.k0(null,"landingstennis.com","/api/Account/addMember",443,A.ao(["username",a],t.N,t.z),"https")
 s=7
 return A.a_(A.arL(n,null,null),$async$m6)
 case 7:i=c
